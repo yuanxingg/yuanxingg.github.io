@@ -129,7 +129,7 @@ html p {
     font-family: Courier;
     background: #E4EEF6;
     padding: 3px;
-    margin-right: 8px;
+    margin-right: 3px;
     letter-spacing: 0;
     line-height: 28px;
     border-radius: 2px;
@@ -234,6 +234,14 @@ section .title.about-me::before {
     text-align: center; 
     z-index: 10;
 }
+.project-content:hover {
+    background: #FFFFFF;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.10);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center; 
+    z-index: 10;
+}
 .project-content p.project-title {
     font-size: 16px;
     font-weight: bold;
@@ -272,8 +280,8 @@ section .title.about-me::before {
     vertical-align: top;
 }
 .company-logo {
-    margin: 20px 0 0 20px;
-    max-width: 250px;
+    margin: 20px 0 0 10px;
+    max-width: 240px;
 }
 .work-content p.create-time {
     font-size: 14px;
